@@ -45,7 +45,7 @@ The system will use vector search to find similar books.
 Predictions are enhanced using zero-shot classification and sentiment analysis.
 Get personalized book recommendations instantly!
 
-###📂 Project Structure
+### 📂 Project Structure
 ```
 LLM_Book_Recommender/
 │── models/                     # Pre-trained ML models
@@ -59,7 +59,9 @@ LLM_Book_Recommender/
 │── README.md                   # Project Documentation
 ```
 📸 Working Demo 
-![Video] ( )
+![Video]( )
+
+---
 
 Developed with ❤️ by Mothilal Shiva
-🔗 LinkedIn: Mothilal Shiva
+🔗 LinkedIn: https://www.linkedin.com/in/mothilal-shiva-41151b228/
