@@ -59,7 +59,7 @@ LLM_Book_Recommender/
 │── README.md                   # Project Documentation
 ```
 📸 Working Demo 
-![Video](https://github.com/MothilalShiva/LLM_Book_Recommender/blob/main/working%20demo.mp4)
+![Screenshot]()
 
 ---
 
