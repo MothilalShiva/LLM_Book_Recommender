@@ -44,10 +44,9 @@ Enter a book description or select from available options.
 The system will use vector search to find similar books.
 Predictions are enhanced using zero-shot classification and sentiment analysis.
 Get personalized book recommendations instantly!
-📂 Project Structure
-bash
-Copy
-Edit
+
+###📂 Project Structure
+```
 LLM_Book_Recommender/
 │── models/                     # Pre-trained ML models
 │── data/                       # Dataset files
@@ -58,7 +57,9 @@ LLM_Book_Recommender/
 │── text-classification.ipynb   # Notebook for zero-shot classification
 │── requirements.txt            # Python dependencies
 │── README.md                   # Project Documentation
-📸 Screenshots
+```
+📸 Working Demo 
+![Video] ( )
 
 Developed with ❤️ by Mothilal Shiva
 🔗 LinkedIn: Mothilal Shiva
