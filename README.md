@@ -1,77 +1,64 @@
-# 📚 LLM Book Recommender 🚀
+# 📖 LLM Book Recommender 📚
 
-This project implements an intelligent book recommendation system using **Large Language Models (LLMs)** to provide **personalized book suggestions** based on user preferences and book descriptions.
-
-## 🔍 Project Overview
-
-The **LLM Book Recommender** processes a dataset of books, cleans and analyzes the data, and leverages **LLMs** for various tasks, including **vector search**, **zero-shot text classification**, and **sentiment analysis**. The final output is an **interactive dashboard** where users can get book recommendations tailored to their interests.
+## Overview  
+The **LLM Book Recommender** is a **Machine Learning-based** book recommendation system that utilizes **Large Language Models (LLMs)** for **vector search, zero-shot text classification, and sentiment analysis**. This project allows users to get personalized book recommendations through an interactive **Gradio-based UI**.
 
 ---
 
-## 📂 Repository Structure
-
-📁 `.idea/` - PyCharm project configuration files  
-📄 `.gitignore` - Files and directories ignored by Git  
-📄 `README.md` - Project documentation  
-📊 `books_cleaned.csv` - Dataset after initial cleaning  
-📊 `books_with_categories.csv` - Books with categorized labels  
-📊 `books_with_emotions.csv` - Books annotated with emotions  
-🖼 `cover-not-found.jpg` - Placeholder image for missing book covers  
-📜 `data_exploration.ipynb` - Data exploration and cleaning notebook  
-🖥 `gradio-dashboard.py` - Gradio-based interactive dashboard  
-📜 `sentiment-analysis.ipynb` - Sentiment analysis using LLMs  
-📜 `text-classification.ipynb` - Zero-shot text classification  
-📜 `vector-search.ipynb` - Building and querying the vector database  
+## ✨ Features  
+- **Book Recommendation System** 📚  
+- **Vector Search using LLMs** 🔍  
+- **Zero-shot Text Classification** 🎯  
+- **Sentiment Analysis on Book Descriptions** ❤️  
+- **User-friendly UI built with Gradio** 🎨  
 
 ---
 
-## ⚙️ Key Components & Methodologies
-
-### 🛠 1. Data Collection & Preparation
-✅ **Dataset**: Contains book descriptions and metadata  
-✅ **Cleaning**: Handling missing values, removing short descriptions, and preprocessing data  
-
-### 🔎 2. Vector Search with LLMs
-📌 **Embeddings**: Generating vector representations of book descriptions  
-📌 **LangChain**: Using LangChain for processing text with LLMs  
-📌 **CharacterTextSplitter**: Splitting book descriptions into manageable chunks  
-📌 **Vector Database**: Storing and querying book embeddings for recommendations  
-📌 **Book Recommendations**: Retrieving books based on similarity scores  
-
-### 🎯 3. Zero-Shot Text Classification
-📌 **Hugging Face Models**: Using LLMs for classifying books without training data  
-📌 **Category Prediction**: Assigning categories to books based on their descriptions  
-📌 **Performance Check**: Evaluating the accuracy of classification results  
-
-### ❤️ 4. Sentiment Analysis
-📌 **Emotion Detection**: Extracting emotional tones from book descriptions  
-📌 **Fine-Tuned Models**: Using LLMs optimized for sentiment analysis  
-
-### 🌐 5. Interactive Dashboard with Gradio
-📌 **Gradio UI**: Building an intuitive web interface for book recommendations  
-📌 **User Input**: Accepting user preferences to personalize book suggestions  
-📌 **Live Demo**: Running the dashboard locally to explore recommendations  
+## 🚀 Technologies Used  
+- **Python** 🐍  
+- **LangChain** (for managing LLM workflows) 🔗  
+- **Hugging Face Transformers** (LLM models) 🤖  
+- **FAISS** (Vector database for similarity search) 🗂️  
+- **Scikit-learn & Pandas** (for data preprocessing) 📊  
+- **Gradio** (for building the interactive UI) 🎭  
+- **GitHub** (Version Control) 🌍  
 
 ---
 
-## 🚀 Getting Started
+## 🏗️ Installation & Setup  
 
-### 🔹 1. Clone the Repository
-```bash
+### Clone the Repository  
+```sh
 git clone https://github.com/MothilalShiva/LLM_Book_Recommender.git
 cd LLM_Book_Recommender
-
-###🔹 2. Set Up the Environment
-Ensure Python is installed on your system.
-
-Create a virtual environment:
-
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install dependencies:
-
+```
+### Install Dependencies
+```sh
 pip install -r requirements.txt
-333🔹 3. Run the Gradio Dashboard
-
+Run the Application
 python gradio-dashboard.py
-Access the dashboard at 👉 http://localhost:7860
+```
+The Gradio UI will be available at: http://localhost:7860
+### 📖 Usage
+Enter a book description or select from available options.
+The system will use vector search to find similar books.
+Predictions are enhanced using zero-shot classification and sentiment analysis.
+Get personalized book recommendations instantly!
+📂 Project Structure
+bash
+Copy
+Edit
+LLM_Book_Recommender/
+│── models/                     # Pre-trained ML models
+│── data/                       # Dataset files
+│── main.py                     # Main script for processing LLM queries
+│── gradio-dashboard.py         # Gradio UI for recommendations
+│── vector-search.ipynb         # Notebook for vector similarity search
+│── sentiment-analysis.ipynb    # Notebook for sentiment analysis
+│── text-classification.ipynb   # Notebook for zero-shot classification
+│── requirements.txt            # Python dependencies
+│── README.md                   # Project Documentation
+📸 Screenshots
+
+Developed with ❤️ by Mothilal Shiva
+🔗 LinkedIn: Mothilal Shiva
